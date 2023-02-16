@@ -24,8 +24,17 @@ Table of Contents:
     margin: 0;
 }
 
-p {
-    margin-bottom: 20px;
+h3 {
+    margin: 25px 0;
+}
+
+a {
+    color: #899CA0;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
 }
 
 /*////////////////////////
@@ -41,11 +50,10 @@ h1 {
     font-weight: bold;
 }
 
-p {
-    font-size: 12px;
+h3 {
+    font-size: 25px;
+    font-weight: bold;
 }
-
-
 /*////////////////////////
     3. Areas
 ////////////////////////*/
@@ -58,12 +66,16 @@ p {
     max-width: 1000px;
     height: 500px;
     margin: auto;
-    background-color: yellow;
     text-align: center;
     padding: 10px 0;
     background-image: url("../assets/images/mountains.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.header-content p {
+    font-size: 12px;
+    margin-bottom: 20px;
 }
 
 .header-content input {
@@ -72,7 +84,6 @@ p {
     border-radius: 20px 0 0 20px;
     margin: -5px;
     border: black solid 1px;
-
 }
 
 .header-content button {
@@ -89,8 +100,41 @@ p {
 
 
 /*///////////// 3.2 Testimonial /////////////*/
+.main-content {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
 
 
+section {
+    position: relative;
+    width: 700px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.support img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.main-content p {
+
+    font-size: 12px;
+    text-align: left;
+}
+
+.main-content button {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+
+}
 
 /*///////////// 3.3 Support /////////////*/
 
