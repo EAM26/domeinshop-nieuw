@@ -10,18 +10,40 @@ Table of Contents:
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
 
+/* Color scheme grijs #899CA0 en donkergroen #1C2B32*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
+p {
+    margin-bottom: 20px;
+}
 
 /*////////////////////////
     2. Typography
 ////////////////////////*/
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 12px;
+}
 
 
 /*////////////////////////
@@ -32,6 +54,38 @@ Table of Contents:
 
 /*///////////// 3.1 Header /////////////*/
 
+.header-content {
+    max-width: 1000px;
+    height: 500px;
+    margin: auto;
+    background-color: yellow;
+    text-align: center;
+    padding: 10px 0;
+    background-image: url("../assets/images/mountains.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.header-content input {
+    background-color: transparent;
+    padding: 15px 50px 15px 15px;
+    border-radius: 20px 0 0 20px;
+    margin: -5px;
+    border: black solid 1px;
+
+}
+
+.header-content button {
+    background-color: black;
+    color: white;
+    padding: 15px 15px 15px 15px;
+    border-radius: 0 20px 20px 0;
+    border: black solid 1px;
+}
+
+::placeholder {
+    color: black;
+}
 
 
 /*///////////// 3.2 Testimonial /////////////*/
