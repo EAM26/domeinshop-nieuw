@@ -26,6 +26,7 @@ Table of Contents:
 
 h3 {
     margin: 25px 0;
+    text-align: center;
 }
 
 a {
@@ -103,15 +104,15 @@ h3 {
 .main-content {
     max-width: 1000px;
     margin: auto;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 
 section {
-    position: relative;
+    /*position: relative;*/
     width: 700px;
     margin: 40px auto;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .support img {
@@ -126,9 +127,10 @@ section {
 }
 
 .main-content button {
-    position: absolute;
-    bottom: -50px;
-    left: 0;
+    /*position: absolute;*/
+    /*bottom: -50px;*/
+    /*left: 0;*/
+    margin-top: 20px;;
     background-color: black;
     color: white;
     padding: 10px;
