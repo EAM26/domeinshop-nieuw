@@ -38,6 +38,8 @@ a:hover {
     text-decoration: none;
 }
 
+
+
 /*////////////////////////
     2. Typography
 ////////////////////////*/
@@ -54,6 +56,13 @@ h1 {
 h3 {
     font-size: 25px;
     font-weight: bold;
+}
+
+section {
+    /*position: relative;*/
+    width: 700px;
+    margin: 40px auto;
+    /*text-align: center;*/
 }
 /*////////////////////////
     3. Areas
@@ -107,26 +116,61 @@ h3 {
     /*text-align: center;*/
 }
 
-
-section {
-    /*position: relative;*/
-    width: 700px;
-    margin: 40px auto;
-    /*text-align: center;*/
+.testim {
+    position: relative;
+    border-radius: 10px;
+    padding: 15px 30px;
+    box-shadow: 5px 5px 15px lightgrey;
+    width: 100%;
+    text-align:left;
 }
 
+.top {
+    display: inline-block;
+    margin: 10px 30px;
+    font-size: 12px;
+}
+
+.bottom {
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+.quote {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.author img {
+    width: 44px;
+    height: 44px;
+    vertical-align: middle;
+}
+
+
+/*///////////// 3.3 Support /////////////*/
+
+details {
+    cursor: pointer;
+    margin: 10px 0 20px 0;
+}
+
+.author {
+    padding-left: 30px;
+}
 .support img {
     max-width: 100%;
     border-radius: 10px;
 }
 
-.main-content p {
-
+.support p {
     font-size: 12px;
     text-align: left;
 }
 
-.main-content button {
+.support button {
     /*position: absolute;*/
     /*bottom: -50px;*/
     /*left: 0;*/
@@ -138,12 +182,15 @@ section {
 
 }
 
-/*///////////// 3.3 Support /////////////*/
-
-
 
 /*///////////// 3.4 Faq /////////////*/
 
-
+.detail {
+    background-color: #899CA0;
+    width: 700px;
+    display: block;
+    border-radius: 25px;
+    padding: 10px;
+}
 
 /*///////////// 3.5 Footer /////////////*/
